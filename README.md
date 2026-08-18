@@ -27,23 +27,23 @@ Mentoring topics for people who wants to transition from other languages (or pla
     - [ ] Bye bye J2EE
     - [ ] Http Client reactive for Http/2
     - [ ] var to infer object types
-- [ ] 1.17 (2021)
-  - [ ] Sealed Classes
-  - [ ] Pattern matching vs instance of and switch case
-  - [ ] Records
-  - [ ] Garbage Collector enhancements
-- [ ] 1.25
-  - [ ] Virtual Threads and Concurrent improvements
-  - [ ] Compact Object Headers (less CPU needed)
-  - [ ] Pattern matching with primitive types in switch and instance of
-- [ ] JPA World
-  - [ ] JPA is not Hibernate. JPA is specs, Hibernate is the implementation
-  - [ ] One-to-one, to-many, Many-to-many...
-  - [ ] N + 1 Queries
-  - [ ] Lazy Loading
-  - [ ] Projections + DTO’s
-  - [ ] Optimistic Locking
-  - [ ] Second Level Cache
+  - [ ] 1.17 (2021)
+    - [ ] Sealed Classes
+    - [ ] Pattern matching vs instance of and switch case
+    - [ ] Records
+    - [ ] Garbage Collector enhancements
+  - [ ] 1.25
+    - [ ] Virtual Threads and Concurrent improvements
+    - [ ] Compact Object Headers (less CPU needed)
+    - [ ] Pattern matching with primitive types in switch and instance of
+  - [ ] JPA World
+    - [ ] JPA is not Hibernate. JPA is specs, Hibernate is the implementation
+    - [ ] One-to-one, to-many, Many-to-many...
+    - [ ] N + 1 Queries
+    - [ ] Lazy Loading
+    - [ ] Projections + DTO’s
+    - [ ] Optimistic Locking
+    - [ ] Second Level Cache
 - [ ] Micro Design (Decisions at code level)
   - [ ] S
   - [ ] O
