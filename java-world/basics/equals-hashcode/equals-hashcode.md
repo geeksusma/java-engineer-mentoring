@@ -7,6 +7,8 @@ Every Java object inherits `equals(Object)` and `hashCode()` from `Object`. By d
 
 That's rarely what you want for a class like `Point`, `User`, or `Money`, where two separate instances with the same field values should be treated as "the same thing." That's why you override both.
 
+> **Runnable examples:** every claim below has a working test backing it under [`src/test/java/basics/equalshashcode`](../../../src/test/java/basics/equalshashcode) (classes under `src/main/java/basics/equalshashcode`). Run them with `mvn test`.
+
 ---
 
 ## Why they matter
