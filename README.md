@@ -78,7 +78,7 @@ Mentoring topics for people who wants to transition from other languages (or pla
 - [ ] Engineering Practices
   - [ ] KISS
   - [ ] Baby Steps
-  - [ ] Virtual Slicing
+  - [ ] Vertical Slicing
   - [ ] Short commits
   - [ ] Short lived branches vs long lived branches
   - [ ]  Code Review best practices
