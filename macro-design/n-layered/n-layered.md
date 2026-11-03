@@ -202,7 +202,7 @@ var total = order.getLines().stream()...                  // LazyInitializationE
 
 What goes wrong:
 
-- **Invariants can't be protected.** JPA wants a no-args constructor and (usually) setters, so an `Order` can exist half-built or in an impossible state. Compare with the compact constructor of a record in the [Records](../../java-world/1.17/records/records.md) lesson, where an invalid object can't even be created.
+- **Invariants can't be protected.** JPA wants a no-args constructor and (usually) setters, so an `Order` can exist half-built or in an impossible state. Compare with the compact constructor of a record in the [Records](../../java-world/java-17/records/records.md) lesson, where an invalid object can't even be created.
 - **ORM behaviour leaks into business rules.** Lazy loading, proxies and dirty checking: reading a collection can fire a query or throw `LazyInitializationException`, and changing a field in memory can silently become an `UPDATE` at commit.
 - **The schema dictates the model.** Splitting a table or renaming a column means touching business code. And the model can only hold what maps easily to columns.
 - **Equality gets tricky.** Entities have identity-based equality and a generated id that is `null` until saved — see the [Equals vs Hashcode](../../java-world/basics/equals-hashcode/equals-hashcode.md) lesson for why that matters in `HashSet`s and `HashMap`s.

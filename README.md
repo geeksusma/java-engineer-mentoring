@@ -23,16 +23,16 @@ Mentoring topics for people who wants to transition from other languages (or pla
     - [ ] Optional vs Null
     - [ ] Java Time vs Java Date
     - [ ] Default Methods in Interface
-  - [ ] 1.11 (2018)
+  - [ ] Java 11 (2018)
     - [ ] Bye bye J2EE
     - [ ] Http Client reactive for Http/2
     - [ ] var to infer object types
-  - [ ] 1.17 (2021)
+  - [ ] Java 17 (2021)
     - [ ] Sealed Classes
     - [ ] Pattern matching vs instance of and switch case
     - [ ] Records
     - [ ] Garbage Collector enhancements
-  - [ ] 1.25
+  - [ ] Java 25
     - [ ] Virtual Threads and Concurrent improvements
     - [ ] Compact Object Headers (less CPU needed)
     - [ ] Pattern matching with primitive types in switch and instance of

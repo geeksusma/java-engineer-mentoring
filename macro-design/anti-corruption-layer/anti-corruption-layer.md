@@ -66,7 +66,7 @@ public interface PaymentProvider {
 }
 ```
 
-The domain code is short and reads like the business talks. The exhaustive `switch` over the sealed result (see the [Sealed Classes](../../java-world/1.17/sealed-classes/sealed-classes.md) lesson) means a new outcome can't be forgotten:
+The domain code is short and reads like the business talks. The exhaustive `switch` over the sealed result (see the [Sealed Classes](../../java-world/java-17/sealed-classes/sealed-classes.md) lesson) means a new outcome can't be forgotten:
 
 ```java
 public Outcome pay(String orderId, Money amount, String cardToken) {

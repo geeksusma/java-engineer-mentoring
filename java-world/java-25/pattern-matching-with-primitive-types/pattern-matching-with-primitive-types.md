@@ -1,6 +1,6 @@
 # Pattern matching with primitive types in switch and instanceof
 
-The [Java 17 pattern matching lesson](../../1.17/pattern-matching-vs-instanceof-and-switch-case/pattern-matching-vs-instanceof-and-switch-case.md) showed type patterns, guards and record patterns — all limited to **reference types**. Java 25 continues extending them to **primitives** (JEP 507, third preview): `instanceof` can test primitive types, patterns can be primitive (`case int s when ...`), and `switch` finally accepts `long`, `float`, `double` and `boolean`.
+The [Java 17 pattern matching lesson](../../java-17/pattern-matching-vs-instanceof-and-switch-case/pattern-matching-vs-instanceof-and-switch-case.md) showed type patterns, guards and record patterns — all limited to **reference types**. Java 25 continues extending them to **primitives** (JEP 507, third preview): `instanceof` can test primitive types, patterns can be primitive (`case int s when ...`), and `switch` finally accepts `long`, `float`, `double` and `boolean`.
 
 ```java
 if (value instanceof byte b) { ... }   // "does this int fit in a byte exactly?"

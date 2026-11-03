@@ -8,7 +8,7 @@ Pattern matching lets a single expression **test** a value's shape, **cast** it,
 | Pattern matching for `instanceof` | Java 16 — available in 17 |
 | Pattern matching for `switch` (type patterns, guards, `case null`) | Java 21 (preview in 17) |
 | Record patterns (deconstruction) | Java 21 |
-| Primitive types in patterns | Preview in 25 — see [the 1.25 lesson](../../1.25/pattern-matching-with-primitive-types/pattern-matching-with-primitive-types.md) |
+| Primitive types in patterns | Preview in 25 — see [the Java 25 lesson](../../java-25/pattern-matching-with-primitive-types/pattern-matching-with-primitive-types.md) |
 
 Java 17 is where most teams first met it, so it's covered here — using the Java 21+ `switch` forms since this project runs on Java 25.
 
