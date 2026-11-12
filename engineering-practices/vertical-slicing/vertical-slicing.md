@@ -1,4 +1,4 @@
-# Virtual Slicing
+# Vertical Slicing
 
 **Cut a big problem into thin slices. Each slice goes end to end and gives something a user can see.**
 
@@ -108,17 +108,17 @@ Split a story along one of these lines:
 
 ---
 
-## Combining both: Virtual Slicing + Baby Steps
+## Combining both: Vertical Slicing + Baby Steps
 
 The two techniques work at different sizes. They have the same shape, which XP calls **Self-Similarity**.
 
 ```
 Story (the elephant)
- └── Slice              ← virtual slicing  (hours)
+ └── Slice              ← vertical slicing  (hours)
       └── Baby step     ← red / green / refactor / commit  (minutes)
 ```
 
-| Question              | Virtual Slicing           | Baby Steps                |
+| Question              | Vertical Slicing           | Baby Steps                |
 |-----------------------|---------------------------|---------------------------|
 | What does it cut?     | The problem               | The code changes          |
 | Unit of work          | A demoable slice          | One test, one commit      |
@@ -191,7 +191,7 @@ That is about 6 small commits in less than an hour, and the user saw something n
 
 ## Summary
 
-- **Virtual slicing** turns the elephant into thin, valuable, demoable pieces.
+- **Vertical slicing** turns the elephant into thin, valuable, demoable pieces.
 - **Baby steps** turn each piece into tiny, safe, reversible moves.
 - Together they give you **feedback every few minutes from the code** and **every few hours from the user**.
 

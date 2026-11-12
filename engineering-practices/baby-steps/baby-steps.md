@@ -2,7 +2,7 @@
 
 **Make the smallest change that moves you forward, check it, and then take the next one.**
 
-> **Goes with:** [Virtual Slicing](../virtual-slicing/virtual-slicing.md). Slicing decides *what* to build next. Baby steps decide *how* you walk there.
+> **Goes with:** [Vertical Slicing](../vertical-slicing/vertical-slicing.md). Slicing decides *what* to build next. Baby steps decide *how* you walk there.
 
 ---
 
@@ -98,4 +98,4 @@ Signs your steps are too big:
 
 Baby steps work for the code, but only if the goal is small too. If the story is "build the order calculator", there is no obvious first step.
 
-That is the job of **[Virtual Slicing](../virtual-slicing/virtual-slicing.md)**: cut the big problem into thin slices, then walk each slice with baby steps.
+That is the job of **[Vertical Slicing](../vertical-slicing/vertical-slicing.md)**: cut the big problem into thin slices, then walk each slice with baby steps.
