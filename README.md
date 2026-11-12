@@ -81,7 +81,7 @@ Mentoring topics for people who wants to transition from other languages (or pla
   - [ ] Vertical Slicing
   - [ ] Short commits
   - [ ] Short lived branches vs long lived branches
-  - [ ]  Code Review best practices
+  - [ ] Code Review best practices
 - [ ]  Testing Best Practices and TDD
   - [ ] FIRST principles
   - [ ] DSL - https://martinfowler.com/dsl.html
